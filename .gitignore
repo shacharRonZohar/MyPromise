@@ -3,3 +3,5 @@ package-lock.json
 ```
 
 MyPromise.js
+tests.js
+tests.ts
