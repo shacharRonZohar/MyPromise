@@ -1,0 +1,23 @@
+{
+  "name": "my-promise",
+  "version": "1.0.0",
+  "description": "This is an implementation of the Promise/A+ specification, built for educational purposes.",
+  "main": "MyPromise.js",
+  "scripts": {
+    "start:ts": "nodemon --exec ts-node ./MyPromise.ts",
+    "start": "nodemon MyPromise.js",
+    "build": "tsc --module commonjs MyPromise.ts"
+  },
+  "keywords": [
+    "Promise",
+    "Promise/A+",
+    "Promise/A+ specification",
+    "Promise implementation"
+  ],
+  "author": "Shachar Ron Zohar",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
+}
